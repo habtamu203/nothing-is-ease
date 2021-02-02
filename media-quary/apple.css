@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.apple{
+    background-color: black;
+    position: sticky;   
+    top: 0; 
+}
+
+.apple-menu{
+    width: 960px;
+    margin: 0 auto;
+    padding: 5px 0;    
+}
+
+.apple-menu ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;    
+}
+.apple-menu ul li{    
+    padding: 5px 12px;
+}
+
+.apple-menu ul li a{
+    text-decoration: none;
+    color: #EAEAEB;    
+}
+
+.apple-menu ul li a:hover{
+    color: red;    
+}
+
+.apple-icon, .serach-icon, .bag-icon{
+    font-size: 22px;
+    
+}
+
+/* alart-class */
+
+.alart-class{
+    background-color: #0071E3;
+    text-align: center;
+    padding: 12px 0px;
+    text-decoration: none;
+  
+}
+.alart-class a{
+text-decoration: none;
+color: white;
+}
+
+.alart-class a:hover{
+    text-decoration: underline;
+}
+
+/******* shope-online**********/
+.shope-online p{
+    text-align: center;
+    line-height: 1.6;
+    background-color: #EAEAEB;
+}
+
+.shope-online a{
+    text-decoration: none;
+    color: #06c;
+}
+.shope-online a:hover{
+    text-decoration: underline;
+}
+
+/******* main-picture************/
+
+.main-texts{
+    text-align: center;
+    padding: 50px 0;
+    line-height: 1.6;    
+}
+.main-texts a{
+    text-decoration: none;
+    color: black;
+}
+.blue-link a{
+    color: #06c;
+}
+.blue-link a:hover{
+    text-decoration: underline;
+}
+
+.main-text-one {
+    font-size: 45px;
+}
+.main-image img{
+   width:100%;
+   /* width: 1100px; */
+   /* border: 1px red solid;  */
+   /* object-fit: cover; 
+   height: 600px;
+   object-position: center center; */
+ }
+
+/********* background-image ***********/
+
+.background-image{
+    background-image: url(images/iPhone-122-Pro.png);
+    height: 550px;
+    background-position: left 100px top 0px;
+       
+}
+
+.back-main-texts{
+    text-align: center;
+    padding: 50px 0;
+    line-height: 1.6;    
+}
+.back-main-texts a{
+    text-decoration: none;
+    color: white;
+}
+.back-blue-link a{
+    color: #06c;
+}
+.back-blue-link a:hover{
+    text-decoration: underline;
+}
+
+.back-main-text-one {
+    font-size: 45px;
+}
+
+/************* fitness-section *****************/
+.all-links-wrapper{
+    text-align: center;
+    /* border: 1px red solid; */
+    padding: 50px 0;
+    /* background-image: url(images/Apple-3.jpg); */
+    
+}
+.all-links-wrapper img{
+    width: 100%;
+}
+.the-first-two-links a{
+    font-size: 45px; 
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+.the-first-two-links a:hover{
+    text-decoration: underline;
+}
+
+.the-second-two-links a{
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+}
+.the-third-two-links a{
+    text-decoration: none;
+    color: #06c;
+    font-size: 20px;
+}
+.the-third-two-links a:hover{
+    text-decoration: underline;
+}
+
+/********* six pictures-sections *********/
+.six-pictures-wrappers{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+
+}
+
+.six-pictures-wrappers> div{
+    border: 1px red solid;
+    height: 500px;
+
+}
+
+/********* paragraph-section *******/
+
+.make-paragraphs-middle{
+    background-color: #eaeaeb;
+}
+.whole-paragraphs-wrapper{
+    width: 960px;
+    margin: 0 auto;
+    font-size: 14px;
+    line-height: 16px;
+    color: #86868b;
+    border-bottom: 1px solid #86868b;
+}
+
+/******** footer-section***************/
+
+.makes-footer-middle{
+    background-color: #eaeaeb;
+}
+.whole-footer-wrapper{
+    width: 960px;
+    margin: 0 auto;
+    /* display: grid;
+    grid-template-columns: repeat(5, 1fr); */
+    display: flex;
+
+}
+.whole-footer-wrapper>div{
+    flex: 1;
+}
+
+.whole-footer-wrapper>ul{
+    list-style-type: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
